@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 userModel.setUserName("Hai");
                 userModel.setAddress("HN");
 
+                Log.d(TAG, "onClick: ");
+
                 intent.putExtra("UserModel", userModel);
 
                 startActivity(intent);
